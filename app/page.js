@@ -1,16 +1,13 @@
 import AddNewTodo from "./add_new_todo"
+import TodoList from "./todo_list"
 
 export default function Home() {
   return (
     <div>
-      <AddNewTodo/>
-      <div>
-        <ul>
-          <li style={{padding:"5px 0"}}>Todo 1</li>
-          <li style={{padding: "5px 0"}}>Todo 2</li>
-          <li style={{padding:"5px 0"}}>Todo 3</li>
-        </ul>
-      </div>
-    </div>    
+    
+        <AddNewTodo />
+        <TodoList /> 
+    
+    </div>
   )
 }
